@@ -5,7 +5,7 @@ var extractCSS = new ExtractTextPlugin('style.css');
 
 var output = {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'http://www.example.com/dist/',
+    publicPath: '/dist/',
     filename: 'bundle.js'
 };
 
